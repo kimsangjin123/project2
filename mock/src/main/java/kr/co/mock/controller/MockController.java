@@ -82,8 +82,7 @@ public String in_regi(Model model,HttpSession session)
 					}
 				else { //diff=0 or 음수 일 경우 현재 날짜와 같거나 종료이전 이므로 신청 불가
 					notday="1";
-					return "redirect:/invest/in_regi?notday=1";
-					
+					return "redirect:/invest/in_regi?notday=1";	
 				}			
 			} //로그인&모의 신청 if문 종료
 		}//로그인 했을 시의 if문 종료

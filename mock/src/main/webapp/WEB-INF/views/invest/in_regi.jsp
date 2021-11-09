@@ -67,7 +67,7 @@
 	&nbsp;&nbsp;● 참가 신청시 모의투자에서 사용할 투자자금을 선택하여 설정 할 수 있습니다.<br>
 	&nbsp;&nbsp;&nbsp;▷ 투자 원금 : 개인 설정(300만원, 500만원, 1천만원)<br>
 	&nbsp;&nbsp;&nbsp;▷ 참가 기간 : 개인 설정(1개월, 2개월, 3개월)<br>
-	&nbsp;&nbsp;&nbsp;▷ 투자 원금과 참가기간 변경은 불가능합니다. 변경을 원하실 경우 참가취소하여 신규 참가하여 주십시오.<br><br><br>
+	&nbsp;&nbsp;&nbsp;▷ 투자 원금과 참가기간 변경은 불가능합니다.<br><br><br>
 
 	<span class="line2"></span><span class="title">&nbsp;거래 및 거래시간</span><p>
 	&nbsp;&nbsp;● 거래일 : 실제 주식 영업일 기준<br>
@@ -76,11 +76,11 @@
 	<span class="line2"></span><span class="title">&nbsp;모의 투자 진행방식</span><br><br>
 	&nbsp;&nbsp;● 시세<p>
 	&nbsp;&nbsp;&nbsp;▷ 모의투자의 시세는 실제 시장의 실시간 시세를 이영하며, 참가자의 주문을 실제시장의 시세에 영향을 미치지 않습니다.<br>
-	&nbsp;&nbsp;&nbsp;(단, 모의투자는 실제 시장에서의 체결과 약간 다를 수 있습니다.<br>
-	&nbsp;&nbsp;&nbsp;▷ 주문은 현금매도/매수, 현금미수에 한하며, 신용이나 공매도는 허용하지 않습니다.)<br><br>
+	&nbsp;&nbsp;&nbsp;(단, 모의투자는 실제 시장에서의 체결과 약간 다를 수 있습니다.)<br>
+	&nbsp;&nbsp;&nbsp;▷ 주문은 마일리지 매도/매수에 한하며 신용이나 공매도는 허용하지 않습니다.<br><br>
 
 	&nbsp;&nbsp;● 투자대상종목<p>
-	&nbsp;&nbsp;&nbsp;▷ 매매제한 종목을 제외한 거래소 및 코스닥, ELW 전종목을 대상으로 합니다.<br>
+	&nbsp;&nbsp;&nbsp;▷ 매매제한 종목을 제외한 일부 코스피만 투자할 수 있습니다.<br>
 	&nbsp;&nbsp;&nbsp;단, 실제 주식시장에서 거래가 발생하지 않았던 종목과 매매거래 정지종목은 투자 대상 종목에서 제외합니다.<br><br><br>
 	</div>
 	<c:if test="${count==1}">
