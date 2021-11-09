@@ -229,7 +229,7 @@ function diff_mil(){
 		curr = Number($("#curr").val()); //매도가
 		
 		sum_mil = curr*num2;
-		curr_mil = mil-sum_mil;
+		curr_mil = mil+sum_mil;
 		
 		$(".sum_mil").val(sum_mil);
 		$(".curr_mil").val(curr_mil);
@@ -239,21 +239,6 @@ function diff_mil(){
 		alert("최소한 하나 이상 판매할 수 있습니다.");
 		num=1;
 		return false;
-	}
-	else if(curr_mil<0){ //최종 마일리지의 값이 마이너스가 되면 구매할 수 없다.
-			alert("잘못된 값입니다.");
-			num=diff;
-			$(".n_buying").val(num);
-			num2 = Number($(".n_buying").val());
-			mil = Number($("#mileage").val()); //받은 포인트
-			curr = Number($("#curr").val()); //매수가
-			
-			sum_mil = curr*num2;
-			curr_mil = mil-sum_mil;
-			
-			$(".sum_mil").val(sum_mil);
-			$(".curr_mil").val(curr_mil);
-			return false;
 	}
 	else{
 		return true;
