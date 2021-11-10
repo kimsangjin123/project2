@@ -35,8 +35,15 @@
 </style>
 <script>
 function delete_id(){
-	alert("정말로 탈퇴하시겠습니까?(클릭시 탈퇴됩니다.)");
-	document.location.href="/mock/mypage/mypage_delete";
+	if(confirm("정말로 탈퇴하시겠습니까?(클릭시 탈퇴됩니다.)")==true)
+	{
+		document.location.href="/mock/mypage/mypage_delete";
+	}
+	else
+	{
+		return false;
+	}
+	
 }
 </script>
 </head>
