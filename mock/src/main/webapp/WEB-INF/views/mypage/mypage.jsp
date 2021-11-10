@@ -33,7 +33,12 @@
       font-size:17px;
     }
 </style>
-
+<script>
+function delete_id(){
+	alert("정말로 탈퇴하시겠습니까?(클릭시 탈퇴됩니다.)");
+	document.location.href="/mock/mypage/mypage_delete";
+}
+</script>
 </head>
 <body>
 <div id="main" class="main">
@@ -62,7 +67,7 @@
       style="width:100%;">수정</button>
       </td>
       <td>
-       <button  class="btn btn-outline-danger btn-sm" onclick="location.href='/mock/mypage/mypage_delete'"
+       <button  class="btn btn-outline-danger btn-sm" onclick="delete_id()"
        style="width:100%;">탈퇴</button>
       </td>
 
